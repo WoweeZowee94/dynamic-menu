@@ -1,0 +1,40 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em;
+    
+}
+
+.menu {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+
+}
+
+.menu-group-heading {
+    margin: 0;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    border-bottom: 3px solid #ccc;
+}
+
+.menu-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    padding: 1.5em 0;
+}
+
+.menu-item {
+    display: flex;
+}
+
+@media screen and (min-width: 992px) {
+    .menu {
+        font-size: 18px;
+    }
+
+    .menu-group {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
