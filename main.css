@@ -1,7 +1,11 @@
+body, html {
+    background-color: #FAF9F6;
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 1.5em;
+    background-color: #FAF9F6;
     
 }
 
@@ -25,8 +29,23 @@
     padding: 1.5em 0;
 }
 
-.menu-item {
+.menu-item{
     display: flex;
+}
+
+.menu-item-text {
+    flex-grow: 1;
+    margin-right: 2em;
+}
+
+.menu-item-name {
+    color:#105410
+}
+
+.menu-item-heading {
+    margin-bottom: .6em;
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (min-width: 992px) {
